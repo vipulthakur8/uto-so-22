@@ -4,37 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./styles/style.css" >
     <title>Utopia</title>
 </head>
 <body>
+    <div class="bodyContainer">
     <header>
         <h1>Utopia</h1>
         <nav>
-            <ul>
+            <ul class="navElements">
                 <li>
-                    <a>
-                        Home
+                    <a href="#about">
+                        About
                     </a>
-                    <a>
+                </li>
+                <li>
+                    <a href="#features">
                         Features
                     </a>
-                    <a>
+                </li>
+                <li>
+                    <a href="#contact">
                         Contact
                     </a>
-                    <ul>
-                        <li>
-                            fb
-                        </li>
-                        <li>
-                            inst
-                        </li>
-                        <li>
-                            twi
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </nav>
+        <div>
+            <ul class="socialMedia">
+                <li>
+                    <a href="#"><i class="bi bi-facebook"></i> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-instagram"></i> </a>
+                </li>
+                <li>
+                    <a href="#"><i class="bi bi-twitter"></i> </a>
+                </li>
+            </ul>
+        </div>
+        
+    
     </header>
+    <main>
+        <section class="aboutSection" id="about">
+            <p class="mainAboutText">We are a growing society, become a member and enjoy life hassle free</p>
+            <img src="./images/town.svg" alt="Town Image" >
+            <p class="mainSubAboutText">Utopia provides a suit of services that takes care of mundane tasks of life such lodging, logistics etc.</p>
+        </section>
+        <section class="featureSection" id="features">
+            <h2>
+                Features of Utopia
+            </h2>
+            <section class="lodgingFeatureSection">
+                <img src="./images/best-place.svg" alt="place image" >
+                <div class="lodgingStyleBox">
+
+                </div>
+                <p class="lodgingText">
+
+                </p>
+            </section>
+            <!-- <section>
+                <img src="./images/wifi.svg" alt="wifi image">
+            </section> -->
+            <section>
+                <!-- <img src="" alt=""> -->
+            </section>
+        </section>
+        <section class="contact">
+            <h2>
+                Contact Us
+            </h2>
+            <img src="./images/contact-us.svg" alt="Contact Us">
+            <h1>
+                Phone: <i>9793209556</i>
+                <br/>
+                email: <i>vipulthakurofficial@gmail.com</i>
+            </h1>
+            <form action="mailto:vipulthakurofficial@gmail.com" method="post" enctype="text/plain">
+                <input type="email" name="email" placeholder="Email" >
+                <br>
+                <input type="text" name="mobile" placeholder="Mobile Number" >
+                <br>
+                <textarea  name="message" placeholder="Message">
+                    
+                </textarea>
+                <br>
+                <input type="button" value="send">
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        &copy; Utopia, Inc.
+    </footer>
+    </div>
 </body>
 </html>
