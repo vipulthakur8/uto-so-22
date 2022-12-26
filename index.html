@@ -45,6 +45,26 @@
             </ul>
         </div>
         
+        <div class="responsiveMenu">
+            <ul>
+                <li>
+                    <a href="#about">
+                        About
+                    </a>
+                </li>
+                <li>
+                    <a href="#features">
+                        Features
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+
     
     </header>
     <main>
@@ -100,16 +120,22 @@
                 email: <i>vipulthakurofficial@gmail.com</i>
             </h1>
             <form action="mailto:vipulthakurofficial@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="fullName" placeholder="Full Name" >
+                <br/>
                 <input type="email" name="email" placeholder="Email" >
                 <br>
                 <input type="text" name="mobile" placeholder="Mobile Number" >
                 <br>
-                <textarea  name="message" placeholder="Message">
-                    
-                </textarea>
+                <textarea  name="message" placeholder="Message"></textarea>
                 <br>
-                <input type="button" value="send">
+                <input class="sendButton" type="button" value="Send">
             </form>
+            <div class="altContact">
+                <h3>You can reach out to us:</h3>
+                <p>Mobile: xxxxxxxxxx</p>
+                <p>Email: utopia.society@gmail.com</p>
+            </div>
+            
         </section>
 
     </main>
@@ -126,7 +152,7 @@
                 <a href="#contact">Contact</a>
             </li>
         </ul>
-        <ul>
+        <ul class="footerResSocialMedia">
             <!-- <p class="footerFollowUs">Follow Us</p> -->
             <li>
                 <a href="#"><i class="bi bi-facebook"></i> </a>
